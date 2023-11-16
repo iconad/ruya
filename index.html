@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="dist/css/style.css">
 	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <style>
+        .pricing-table-features li::before {
+            display: none;
+        }
+        .pricing-table-features li a {
+            text-decoration: none;
+        }
+        .pricing-table-features li a:hover {
+            color: white;
+        }
+    </style>
 </head>
 <body class="is-boxed has-animations">
     <div class="body-wrap">
@@ -54,26 +65,26 @@
                 </div>
             </section>
 
+
+            <div class="container" style="margin-top: 80px; text-align: center;">
+                <p>
+                    Prepare to embark on an extraordinary journey with us. In the realm of endless possibilities, we are crafting an experience that goes beyond the ordinary. Tailored specifically for individuals who appreciate the exceptional, our upcoming revelation promises to redefine the way you perceive innovation.
+                </p>
+                <p>As the anticipation builds, we invite you to stay closely connected. Join us on this exciting venture, where every detail is thoughtfully curated to resonate with your uniqueness. Be part of a narrative that's not just about what's next, but about what's next for you. The unfolding story awaits, promising a fusion of sophistication, innovation, and a touch of magic. Get ready to witness something truly special, as we prepare to unveil a masterpiece crafted exclusively for individuals like you.</p>
+            </div>
+
+
             <section class="features section">
                 <div class="container">
 					<div class="features-inner section-inner has-bottom-divider">
                         <div class="features-wrap">
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-01.svg" alt="Feature 01">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Innovative Design</h4>
-                                    <p class="text-sm mb-0">Discover cutting-edge design where form meets function. Each aspect meticulously crafted to enhance your experience, marrying aesthetics with practicality.</p>
-                                </div>
-                            </div>
 							<div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
 										<img src="dist/images/feature-icon-02.svg" alt="Feature 02">
                                     </div>
                                     <h4 class="feature-title mt-24">Unmatched Quality</h4>
-                                    <p class="text-sm mb-0">Experience unparalleled quality in every product. Our commitment to excellence ensures that every item stands out as a benchmark in its category.</p>
+                                    <p class="text-sm mb-0">Experience unparalleled quality in every product. Our commitment to ensures that every item stands out as a benchmark in its category.</p>
                                 </div>
                             </div>
                             <div class="feature text-center is-revealing">
@@ -85,15 +96,6 @@
                                     <p class="text-sm mb-0">Tailored to your unique needs, our solutions promise a perfect blend of personalization and performance. Your preferences guide our innovation.</p>
                                 </div>
                             </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-04.svg" alt="Feature 04">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Advanced Technology</h4>
-                                    <p class="text-sm mb-0">Embrace the future with our advanced technological offerings. Stay ahead of the curve with the latest developments that redefine conventional boundaries.</p>
-                                </div>
-                            </div>
 							<div class="feature text-center is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
@@ -103,13 +105,36 @@
                                     <p class="text-sm mb-0">Experience service that goes beyond the ordinary. Our dedicated team ensures every interaction is smooth, efficient, and tailored to your needs."</p>
                                 </div>
                             </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-06.svg" alt="Feature 06">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pricing section">
+                <div class="container-sm">
+                    <div class="pricing-inner section-inner">
+                        <div class="pricing-header text-center">
+                            <h2 class="section-title mt-0">Contact Us</h2>
+                        </div>
+						<div class="pricing-tables-wrap">
+                            <div class="pricing-table">
+                                <div class="pricing-table-inner is-revealing">
+                                    <div class="pricing-table-main">
+										<div class="pricing-table-features-title text-xs pt-24 pb-24">
+                                            Ruya Community Islamic Bank L.L.C
+                                        </div>
+                                        <ul class="pricing-table-features list-reset text-xs">
+                                            <li>
+                                                <span>Address: <br> Liwa 1, Ajman, United Arab Emirates</span>
+                                            </li>
+                                            <li>
+                                                <span>Tel: <a href="tel:+9714307000"> +971 4 307 000</a> </span>
+                                            </li>
+                                            <li>
+                                                <span>Tel: <a href="tel:+97124141111"> +971 2 414 1111</a> </span>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <h4 class="feature-title mt-24">Sustainable Practices</h4>
-                                    <p class="text-sm mb-0">Join us in our journey towards sustainability. Our eco-friendly initiatives and practices demonstrate our commitment to a better, greener future.</p>
                                 </div>
                             </div>
                         </div>
@@ -140,33 +165,7 @@
                             <a href="#">Support</a>
                         </li>
                     </ul>
-                    <ul class="footer-social-links list-reset">
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0270D7"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Twitter</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#0270D7"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0270D7"/>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer-copyright">&copy; 2023 Innovative Odyssey, all rights reserved</div>
+\                    <div class="footer-copyright">&copy; 2023 Innovative Odyssey, all rights reserved</div>
                 </div>
             </div>
         </footer>
