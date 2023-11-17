@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Innovative Odyssey</title>
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
+        body {
+            background: white!important;
+            font-family: 'Roboto', sans-serif;
+        }
         .pricing-table-features li::before {
             display: none;
         }
@@ -21,7 +27,7 @@
         }
         .banner-image {
             position: relative;
-            height: 80vh;
+            height: 90vh;
         }
         
         .banner-image img {
@@ -36,117 +42,102 @@
             position: absolute;
             left: 0px;
             top: 0px;
-            background: #24283067;
+            background: #24283008;
             height: 100%;
             width: 100%;
         }
     </style>
 </head>
-<body class="is-boxed has-animations">
+<body class="has-animations">
     <div class="body-wrap">
         <main>
 
             <div class="banner-image">
-                <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700138336/DAS/RUya_sxp0h3.jpg" alt="image">
+                <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700209750/DAS/Asset_13_grqpaa.png" alt="image">
             </div>
 
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-						<div >
-	                        <h1 class="hero-title mt-0">Embark on Innovation</h1>
-	                        <p class="hero-paragraph">Join us in a journey of discovery, where innovation meets individuality, and where every step is a leap towards the extraordinary.</p>
-                                <p>
-                                    Prepare to embark on an extraordinary journey with us. In the realm of endless possibilities, we are crafting an experience that goes beyond the ordinary. Tailored specifically for individuals who appreciate the exceptional, our upcoming revelation promises to redefine the way you perceive innovation.
-                                </p>
-                                <p>As the anticipation builds, we invite you to stay closely connected. Join us on this exciting venture, where every detail is thoughtfully curated to resonate with your uniqueness. Be part of a narrative that's not just about what's next, but about what's next for you. The unfolding story awaits, promising a fusion of sophistication, innovation, and a touch of magic. Get ready to witness something truly special, as we prepare to unveil a masterpiece crafted exclusively for individuals like you.</p>
-                        </div>
-						
+
+            <div class="bg-[#8e7869] py-24">
+                <div class="max-w-2xl mx-auto text-white">
+                    <div class="space-y-4">
+                        <h1 class="text-3xl font-bold"> Embark on a Visionary Voyage</h1>
+                        <p class="text-lg font-light">
+                            Join us in a journey of vision and progress,
+                            where groundbreaking concepts meet
+                            individual aspirations, and every step
+                            forward is a leap towards the extraordinary.
+                            Prepare to embark on an unparalleled
+                            journey with us. In the realm of endless
+                            possibilities, we are curating an experience
+                            that defies the norm. Tailored for individuals
+                            who appreciate unique perspectives, our
+                            upcoming revelation promises to redefine
+                            the way you perceive innovation.
+                        </p>
                     </div>
-                </div>
-            </section>
-
-
-
-
-
-            <section class="features section" style="margin-top: -90px">
-                <div class="container">
-					<div class="features-inner section-inner has-bottom-divider">
-                        <div class="features-wrap">
-							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-02.svg" alt="Feature 02">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Unmatched Quality</h4>
-                                    <p class="text-sm mb-0">Experience unparalleled quality in every product. Our commitment to ensures that every item stands out as a benchmark in its category.</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-03.svg" alt="Feature 03">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Customized Solutions</h4>
-                                    <p class="text-sm mb-0">Tailored to your unique needs, our solutions promise a perfect blend of personalization and performance. Your preferences guide our innovation.</p>
-                                </div>
-                            </div>
-							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-05.svg" alt="Feature 05">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Exceptional Service</h4>
-                                    <p class="text-sm mb-0">Experience service that goes beyond the ordinary. Our dedicated team ensures every interaction is smooth, efficient, and tailored to your needs."</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="pricing section">
-                <div class="container-sm">
-                    <div class="pricing-inner section-inner">
-                        <div class="pricing-header text-center">
-                            <h2 class="section-title mt-0">Contact Us</h2>
-                        </div>
-						<div class="pricing-tables-wrap">
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner is-revealing">
-                                    <div class="pricing-table-main">
-										<div class="pricing-table-features-title text-xs pt-24 pb-24">
-                                            Ruya Community Islamic Bank L.L.C
-                                        </div>
-                                        <ul class="pricing-table-features list-reset text-xs">
-                                            <li>
-                                                <span>Address: <br> Liwa 1, Ajman, United Arab Emirates</span>
-                                            </li>
-                                            <li>
-                                                <span>Tel: <a href="tel:+9714307000"> +971 4 307 000</a> </span>
-                                            </li>
-                                            <li>
-                                                <span>Tel: <a href="tel:+97124141111"> +971 2 414 1111</a> </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-        <footer class="site-footer">
-            <div class="container" style="text-align: center; padding-bottom: 30px;">
-                <div>
-                    <div >&copy; 2023 Innovative Odyssey, all rights reserved</div>
                 </div>
             </div>
-        </footer>
-    </div>
+
+            <div class="space-y-16 py-24">
+                
+                <div class="flex items-center space-x-48">
+                    <div class="pl-10">
+                        <img class="rounded" src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700210395/DAS/Asset_4_kys6g4.png" alt="image">
+                    </div>
+                    <div>
+                        <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700209986/DAS/Asset_1_mkynoj.png" alt="image">
+                    </div>
+                </div>
+                
+
+                <div class="flex items-center space-x-48">
+                    <div>
+                        <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700209986/DAS/Asset_2_onts3t.png" alt="image">
+                    </div>
+                    <div class="pr-10">
+                        <img  class="rounded"  src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700210394/DAS/Asset_5_klsu9k.png" alt="image">
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-48">
+                    <div class="pl-10">
+                        <img class="rounded" src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700210398/DAS/Asset_8_q0wrrm.png" alt="image">
+                    </div>
+                    <div>
+                        <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700209986/DAS/Asset_3_hynmjd.png" alt="image">
+                    </div>
+                </div>                
+
+                <div class="flex items-center space-x-48">
+                    <div>
+                        <img src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700209987/DAS/Asset_4_zi007a.png" alt="image">
+                    </div>
+                    <div class="pr-10">
+                        <img class="rounded" src="https://res.cloudinary.com/dizi8svi8/image/upload/v1700210398/DAS/Asset_9_qopnfg.png" alt="image">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="bg-[#8e7869] py-16">
+                <div class="max-w-xl mx-auto text-white">
+                    <div class="space-y-4 text-center">
+                        <h2 class="text-2xl font-semibold tracking-wide text-center"> Contact Us</h2>
+                        <div class="py-2 inline-block text-left">
+                            <div class="text-lg font-medium border-b border-gray-200 py-3 inilne-block"> Roya Community Islamic Bank L.L.C </div>
+                            <div class="text-lg border-b border-gray-200 py-3 font-light inilne-block"> Address: Liwa 1, Ajman, United Arab Emirates </div>
+                            <div class="text-lg pt-3 inilne-block font-light">
+                                Tel 1 : <a href="tel:+9714307000">+971 4 307 000</a><br>
+                                Tel 2 : <a href="tel:+9714307000">+971 2 414 1111   </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
 
     <script src="dist/js/main.min.js"></script>
 </body>
